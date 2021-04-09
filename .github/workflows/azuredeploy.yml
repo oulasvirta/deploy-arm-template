@@ -3,7 +3,7 @@ name: Deploy ARM Template
 on:
   push:
     branches:
-      - master
+      - main
 jobs:
   deploy-virtual-network-template:
     runs-on: ubuntu-latest
